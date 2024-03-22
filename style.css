@@ -1,0 +1,99 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image-container {
+    position: relative;
+}
+
+.bottom-image, .top-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bottom-image {
+    opacity: 30%;
+}
+
+.top-image {
+    z-index: 1;
+    border: 5px solid white;
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+}
+
+.team-names {
+    position: absolute;  
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    z-index: 3;
+    margin: 0;
+}
+
+.team-one {
+    top: 52%;
+    left: 70%;
+}
+
+.team-two {
+    top: 37%;
+    left: 77%;
+}
+
+#red-box {
+    padding-left: 28rem;
+    padding-bottom: 0.75rem;
+}
+
+#blue-box {
+    padding-left: 15rem;
+    padding-top: 0.75rem;
+}
+
+.photo {
+    height: 307px;
+    width: 169px;
+    z-index: 3;
+    padding-right: 50px;
+}
+
+.team-photos {
+    position: absolute;
+    padding-left: 27rem;
+    padding-top: 5rem;
+    z-index: 3;
+}
+
+.team-one-photo {
+    display: flex;
+    flex-direction: row;
+}
+
+.team-two-photo {
+    display: flex;
+    flex-direction: row;
+}
+
+.player {
+    position: relative;
+}
+
+p {
+    color: white;
+    font-weight: bold;
+    box-sizing: content-box;
+    text-align: center;
+    padding-right: 3.3rem;
+}
+
+.vs-statement {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 15rem;
+}
